@@ -10,7 +10,8 @@ int main(void)
 {
   Quat vec = {0, 3, 4, 5}; // Point at (3, 4, 5)
   
-  Quat rotX90 = et_genQuaternion(et_dToR(90), 1, 0, 0); // generates a quaternion that represents a 90 degree rotation around the x axis
+  // generates a quaternion that represents a 90 degree rotation around the x axis
+  Quat rotX90 = et_genQuaternion(et_dToR(90), 1, 0, 0);
   
   printf("Start: ");
   et_printQuaternion(vec);
