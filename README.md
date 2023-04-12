@@ -1,4 +1,2 @@
 # eternion
-A basic quaternion library
-
-docs are wip
+A basic quaternion based 3D transformation library
