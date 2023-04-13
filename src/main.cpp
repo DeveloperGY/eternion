@@ -2,13 +2,13 @@
 
 int main(void)
 {
-    Quat rotX = et_genQuaternion(et_dToR(90.0f), 1, 0, 0);
+    et_Quat rotX = et_genQuaternion(et_dToR(90.0f), et_genVec3f(1, 0, 0));
 
-    Quat vector = {0, 3, 4, 5};
+    et_Vec3f vector = et_genVec3f(3, 4, 5);
 
-    Quat rotated = et_rotateQuaternion(vector, rotX);
+    et_Vec3f rotated = et_rotateVec3f(vector, rotX);
 
-    et_printQuaternion(vector);
-    et_printQuaternion(rotated);
+    et_printVec3f(vector);
+    et_printVec3f(rotated);
     return 0;
 }
