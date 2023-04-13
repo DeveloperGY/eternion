@@ -5,7 +5,7 @@ A basic quaternion based 3D transformation library
 Compile the c code in src/eternion into a library and link with it, or just compile the source files along with your project. Either way you will also need to include eternion.h from src/eternion as well. It is not recommended to use the precompiled library as it was compiled on arch linux, meaning that the version of glibc it was compiled with is probably higher than what you have on your system.
 
 ## Documentaion
-CHeckout the wiki tab of the repo for docs on the different parts of the library, and feel free to scour the source code all you want!
+Checkout the wiki tab of the repo for docs on the different parts of the library, and feel free to scour the source code all you want!
 
 ## Example
 ```c++
