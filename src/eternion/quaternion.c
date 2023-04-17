@@ -153,3 +153,14 @@ et_Vec3f et_translateVec3f(et_Vec3f v, et_Vec3f t)
 
     return result;
 }
+
+et_Vec3f et_scaleVec3f(et_Vec3f v, float s)
+{
+    et_Vec3f result;
+
+    result.x = v.x * s;
+    result.y = v.y * s;
+    result.z = v.z * s;
+
+    return result;
+}

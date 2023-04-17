@@ -164,6 +164,16 @@ et_Vec3f et_rotateVec3f(et_Vec3f v, et_Quat q);
 */
 et_Vec3f et_translateVec3f(et_Vec3f v, et_Vec3f t);
 
+/**
+ * @brief Scales a vector
+ * 
+ * @param v The vector to be scaled
+ * @param s The scale value
+ * 
+ * @return The scaled vector
+*/
+et_Vec3f et_scaleVec3f(et_Vec3f v, float s);
+
 #ifdef __cplusplus
 }
 #endif
